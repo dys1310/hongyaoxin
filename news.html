@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新闻资讯 | 鸿耀鑫制衣设备</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="images/logo.png" alt="鸿耀鑫制衣设备" />
+        <span>鸿耀鑫制衣设备</span>
+      </a>
+      <button class="menu-toggle" aria-label="展开菜单">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="products.html">产品中心</a>
+        <a href="news.html" class="active">新闻资讯</a>
+        <a href="cases.html">案例展示</a>
+        <a href="contact.html">联系我们</a>
+        <div class="lang-switch">
+          <a href="news.html" class="active">中文</a>
+          <span>/</span>
+          <a href="news-en.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <section class="banner-carousel" id="banner-carousel">
+      <div class="slides">
+        <img src="images/Banner/Banner1.png" alt="Banner 1" class="active" />
+        <img src="images/Banner/Banner2.png" alt="Banner 2" />
+        <img src="images/Banner/Banner3.png" alt="Banner 3" />
+        <img src="images/Banner/Banner4.png" alt="Banner 4" />
+      </div>
+      <div class="controls">
+        <button class="prev" aria-label="Previous">‹</button>
+        <button class="next" aria-label="Next">›</button>
+      </div>
+      <div class="dots" aria-hidden="false">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+      </div>
+    </section>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>行业资讯与技术分享</h2>
+        <p>持续发布设备使用经验、工艺优化和选型建议</p>
+      </div>
+
+      <div class="announcement" id="announcementBlock">
+        <p><strong>最新公告：</strong><span id="announcementText">加载中，请稍候…</span></p>
+      </div>
+
+      <div class="section-title">
+        <h2>行业热点</h2>
+        <p>自动展示本周关注的新闻与热点资讯</p>
+      </div>
+      <div class="news-grid" id="hotNews"></div>
+
+      <div class="section-title">
+        <h2>最新发布</h2>
+        <p>支持图片、文章和公告统一展示，便于后续更新</p>
+      </div>
+      <div class="news-grid" id="newsList"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div><strong>鸿耀鑫制衣设备</strong><p>持续更新设备技术资讯</p></div>
+      <div>© <span id="year"></span> 鸿耀鑫制衣设备 版权所有</div>
+    </div>
+  </footer>
+
+  <script src="js/news-data.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

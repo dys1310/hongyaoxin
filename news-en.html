@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News | Hongyaoxin Garment Equipment</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index-en.html">
+        <img class="logo-img" src="images/logo.png" alt="Hongyaoxin Garment Equipment" />
+        <span>Hongyaoxin Garment Equipment</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <a href="index-en.html">Home</a>
+        <a href="products-en.html">Products</a>
+        <a href="news-en.html" class="active">News</a>
+        <a href="cases-en.html">Cases</a>
+        <a href="contact-en.html">Contact</a>
+        <div class="lang-switch">
+          <a href="news.html">中文</a>
+          <span>/</span>
+          <a href="news-en.html" class="active">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <section class="banner-carousel" id="banner-carousel">
+      <div class="slides">
+        <img src="images/Banner/Banner1.png" alt="Banner 1" class="active" />
+        <img src="images/Banner/Banner2.png" alt="Banner 2" />
+        <img src="images/Banner/Banner3.png" alt="Banner 3" />
+        <img src="images/Banner/Banner4.png" alt="Banner 4" />
+      </div>
+      <div class="controls">
+        <button class="prev" aria-label="Previous">‹</button>
+        <button class="next" aria-label="Next">›</button>
+      </div>
+      <div class="dots" aria-hidden="false">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+      </div>
+    </section>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Industry News & Technical Shares</h2>
+        <p>Continuously publish equipment know-how, process improvements, and selection guidance.</p>
+      </div>
+
+      <div class="announcement" id="announcementBlock">
+        <p><strong>Latest Announcement:</strong> <span id="announcementText">Loading latest news…</span></p>
+      </div>
+
+      <div class="section-title">
+        <h2>Hot Topics</h2>
+        <p>Automatically highlight trending industry updates and important notices.</p>
+      </div>
+      <div class="news-grid" id="hotNews"></div>
+
+      <div class="section-title">
+        <h2>Recent Releases</h2>
+        <p>Images, summaries, and announcements are displayed in one place for easy updates.</p>
+      </div>
+      <div class="news-grid" id="newsList"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div><strong>Hongyaoxin Garment Equipment</strong><p>Latest industry updates</p></div>
+      <div>© <span id="year"></span> Hongyaoxin Garment Equipment. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/news-data.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

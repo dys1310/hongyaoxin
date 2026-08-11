@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Hongyaoxin Garment Equipment</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index-en.html">
+        <img class="logo-img" src="images/logo.png" alt="Hongyaoxin Garment Equipment" />
+        <span>Hongyaoxin Garment Equipment</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <a href="index-en.html">Home</a>
+        <a href="products-en.html">Products</a>
+        <a href="news-en.html">News</a>
+        <a href="cases-en.html">Cases</a>
+        <a href="contact-en.html" class="active">Contact</a>
+        <div class="lang-switch">
+          <a href="contact.html">中文</a>
+          <span>/</span>
+          <a href="contact-en.html" class="active">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <section class="banner-carousel" id="banner-carousel">
+      <div class="slides">
+        <img src="images/Banner/Banner1.png" alt="Banner 1" class="active" />
+        <img src="images/Banner/Banner2.png" alt="Banner 2" />
+        <img src="images/Banner/Banner3.png" alt="Banner 3" />
+        <img src="images/Banner/Banner4.png" alt="Banner 4" />
+      </div>
+      <div class="controls">
+        <button class="prev" aria-label="Previous">‹</button>
+        <button class="next" aria-label="Next">›</button>
+      </div>
+      <div class="dots" aria-hidden="false">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+      </div>
+    </section>
+  </section>
+
+  <section class="section">
+    <div class="container form-grid">
+      <div class="panel">
+        <h3>Request a Solution</h3>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Please enter your name" required />
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" placeholder="Please enter your phone number" required />
+          <label for="company">Company / Factory</label>
+          <input id="company" name="company" placeholder="e.g. Clothing factory" required />
+          <label for="message">Requirements</label>
+          <textarea id="message" name="message" placeholder="Please describe the equipment type, capacity, or process requirements"></textarea>
+          <button class="btn" type="submit">Submit Inquiry</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h3>Contact Information</h3>
+        <ul class="list contact-list">
+          <li>Phone: 138-xxxx-xxxx</li>
+          <li>WeChat: hongyaoxin123</li>
+          <li>Address: 105A, Chenglin Industrial Zone, Faqian Road, Guanlan, Longhua, Shenzhen</li>
+          <li>Service Hours: Mon to Sat, 8:30-18:00</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div><strong>Hongyaoxin Garment Equipment</strong><p>Welcome to call or contact us on WeChat</p></div>
+      <div>© <span id="year"></span> Hongyaoxin Garment Equipment. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>

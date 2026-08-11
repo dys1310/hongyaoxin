@@ -1,0 +1,13 @@
+项目根目录
+├ index.html          首页
+├ news.html           新闻资讯页
+├ products.html       产品页
+├ contact.html        联系页
+├ images/
+│   ├ logo.png        网站顶部logo
+│   ├ product1~4.jpg  产品图
+│   ├ qrcode.png      微信二维码
+│   └ news/           所有新闻图片、视频全放这里
+│       ├ news1-cover.jpg
+│       ├ production-line.mp4
+│       └ ...其他素材

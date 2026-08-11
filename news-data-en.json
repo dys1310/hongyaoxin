@@ -1,0 +1,55 @@
+{
+  "announcement": "Jul 30: New coating line case launched — supports bulk customization and process optimization consulting.",
+  "articles": [
+    {
+      "id": 1,
+      "title": "Dual-station Heat Transfer Machine: Maintenance Guide",
+      "summary": "A complete maintenance checklist from temperature control calibration to cylinder lubrication for stable operation.",
+      "image": "images/news/Trade_Fair/微信图片_20260730173517_16_23.jpg",
+      "date": "2026-07-30",
+      "category": "Maintenance",
+      "type": "hot",
+      "link": "contact-en.html"
+    },
+    {
+      "id": 2,
+      "title": "Hanger Automatic Coating Line: Factory Footage",
+      "summary": "Shows the full-line workflow from feeding to drying, suitable for on-site customer evaluation.",
+      "image": "images/news/Trade_Fair/微信图片_20260730173518_17_23.jpg",
+      "date": "2026-07-30",
+      "category": "Case Study",
+      "type": "hot",
+      "link": "contact-en.html"
+    },
+    {
+      "id": 3,
+      "title": "Heat Transfer Machine Model Comparison",
+      "summary": "Compare capacity, power and suitable scenarios to help users choose more efficiently.",
+      "image": "images/news/Trade_Fair/微信图片_20260730173519_18_23.jpg",
+      "date": "2026-07-30",
+      "category": "Buying Guide",
+      "type": "normal",
+      "link": "contact-en.html"
+    },
+    {
+      "id": 4,
+      "title": "Industry Update: Smart Factories & Energy-saving Upgrades",
+      "summary": "Interpreting the trend of smart upgrades in garment equipment to help production lines reduce cost and increase efficiency.",
+      "image": "images/news/Trade_Fair/微信图片_20260730173520_19_23.jpg",
+      "date": "2026-07-29",
+      "category": "Industry",
+      "type": "normal",
+      "link": "contact-en.html"
+    },
+    {
+      "id": 5,
+      "title": "Showcasing at a Major Industry Exhibition, Connecting Global Resources",
+      "summary": "Shenzhen Hongyaoxin participated in a leading garment equipment exhibition, achieving both brand exposure and business development.",
+      "image": "images/news/exhibition-banner.jpg",
+      "date": "2026-08-03",
+      "category": "Company News",
+      "type": "normal",
+      "link": "news/news-1-en.html"
+    }
+  ]
+}

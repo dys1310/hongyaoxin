@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>联系我们 | 鸿耀鑫制衣设备</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="images/logo.png" alt="鸿耀鑫制衣设备" />
+        <span>鸿耀鑫制衣设备</span>
+      </a>
+      <button class="menu-toggle" aria-label="展开菜单">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="products.html">产品中心</a>
+        <a href="news.html">新闻资讯</a>
+        <a href="cases.html">案例展示</a>
+        <a href="contact.html" class="active">联系我们</a>
+        <div class="lang-switch">
+          <a href="contact.html" class="active">中文</a>
+          <span>/</span>
+          <a href="contact-en.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <section class="banner-carousel" id="banner-carousel">
+      <div class="slides">
+        <img src="images/Banner/Banner1.png" alt="Banner 1" class="active" />
+        <img src="images/Banner/Banner2.png" alt="Banner 2" />
+        <img src="images/Banner/Banner3.png" alt="Banner 3" />
+        <img src="images/Banner/Banner4.png" alt="Banner 4" />
+      </div>
+      <div class="controls">
+        <button class="prev" aria-label="Previous">‹</button>
+        <button class="next" aria-label="Next">›</button>
+      </div>
+      <div class="dots" aria-hidden="false">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+      </div>
+    </section>
+  </section>
+
+  <section class="section">
+    <div class="container form-grid">
+      <div class="panel">
+        <h3>预约设备方案</h3>
+        <form id="contactForm">
+          <label for="name">姓名</label>
+          <input id="name" name="name" placeholder="请输入您的姓名" required />
+          <label for="phone">电话</label>
+          <input id="phone" name="phone" placeholder="请输入手机号码" required />
+          <label for="company">公司/工厂</label>
+          <input id="company" name="company" placeholder="例如：XX服装厂" required />
+          <label for="message">需求描述</label>
+          <textarea id="message" name="message" placeholder="请描述设备类型、产能需求或工艺要求"></textarea>
+          <button class="btn" type="submit">提交咨询</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h3>联系方式</h3>
+        <ul class="list contact-list">
+          <li>电话：138-xxxx-xxxx</li>
+          <li>微信：hongyaoxin123</li>
+         <li>Email:hongyaoxin168@qq.com
+          <li>地址：深圳市龙华区福城街道福前路 47-2</li>
+          <li>服务时间：周一至周六 8:30-18:00</li>
+        </ul>
+        <p class="muted">如需实地看机，请提前预约，工程师会根据您的车间条件给出方案。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div><strong>鸿耀鑫制衣设备</strong><p>欢迎来电或微信咨询</p></div>
+      <div>© <span id="year"></span> 鸿耀鑫制衣设备 版权所有</div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
